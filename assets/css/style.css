@@ -94,6 +94,7 @@ h1 {
 #tabella{
     width: 100%;
     border-bottom: 2px solid #4c67bd;
+    margin-top: 20px;
 }
 
 #tabella caption {
@@ -117,6 +118,10 @@ h1 {
     background-color: #e0e0e0;
 }
 
+#tabella + p {
+    margin-block: 20px;
+}
+
 #video-yt {
     width: 100%;
     min-height: 200px;
@@ -124,7 +129,7 @@ h1 {
 }
 
 #news {
-    margin-top: 20px;
+    margin-top: 22px;
     background-color: #e0e0e0;
     text-align: center;
 }
@@ -215,4 +220,3 @@ footer div > p {
 .a-purple {
     color: #f903fe;
 }
-
