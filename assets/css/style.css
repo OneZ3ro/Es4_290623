@@ -1,23 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 /* IMPOSTAZIONI GENERALI */
 
-body, article, ul {
+body, article, #lista-menu {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+.icona-light {
+    color: #b3b3b3;
+}
+
+.span-purple {
+    color: #a316a3;
+    font-weight: 600;
+}
+
 article {
-    width: 450px;
+    min-width: 450px;
+}
+
+code {
+    background-color: #e0e0e0;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #767676;
 }
 
 /* HEADER */
-header {
+header, main {
     padding: 20px;
     margin: 30px;
-    background-color: rgb(4, 92, 116);
 }
 
+header {
+    background-color: rgb(4, 92, 116);
+}
 
 #logo-and-blog {
     text-align: center;
@@ -40,6 +60,18 @@ header {
 }
 
 /* MAIN */
+
+main {
+    box-shadow: 0px 10px 11px 0px grey;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 

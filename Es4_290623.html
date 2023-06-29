@@ -19,7 +19,7 @@
                 <div>EPICODE - IL BLOG DEI DEVELOPERS</div>
             </div>
             <div id="menu">
-                <ul>
+                <ul id="lista-menu">
                     <li>
                         <a href="#" target="_blank">
                             &rArr; Home &lArr;
@@ -40,13 +40,17 @@
         </header>
         
         <main>
-            <div id="tit-post">
-                <h1>Come creare un template per i post</h1>
+            <h1>Come creare un template per i post</h1>
+            <div>
+                <p class="icona-light">
+                    <i class="fas fa-pen-square icona-light"></i>
+                    di Mario Rossi - 
+                    <i class="fas fa-clock icona-light"></i> Pubblicato il 27-06-2023
+                </p>
             </div>
-            <p>di Mario Rossi. Pubblicato il 27-06-2023</p>
             <div id="first-part">
                 <p>
-                    La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine
+                    La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span class="span-purple">parti comuni</span> da applicare a tutte le pagine.
                     <br><br>
                     Le varie aree saranno quindi divise in: 
                 </p>
@@ -56,7 +60,7 @@
                     <li>Contenuti di di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
                 </ul>
                 <p>
-                    Il testo dell'articolo dovrà essere formattato per identificare tutte le apri da selezionare con i CSS. Perciò i passi saranno:
+                    Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span class="span-purple">selezionare con i CSS</span>. Perciò i passi saranno:
                 </p>
                 <ol>
                     <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
@@ -108,9 +112,10 @@
                 <p>
                     Un test di validazione potrà essere fatto tramite il tool online <a href="#">INSERISCI SITO</a> dedicato allo scopo.Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro: 
                 </p>
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/kz-wS8EJfdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="215" src="https://www.youtube.com/embed/kz-wS8EJfdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div id="last-part">
+            <div id="news">
+                <h3>Novità</h3>
                 <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
                 <form onsubmit="alert('Registrazione effettuata con successo')">
                     <label for="email">Inserisci l'email:</label>
