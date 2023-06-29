@@ -99,9 +99,49 @@ h1 {
 
 #video-yt {
     width: 100%;
-    min-height: 150px;
+    min-height: 200px;
     border-radius: 10px;
 }
+
+#news {
+    margin-top: 20px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+#news h3 {
+    margin: 0;
+    padding-block: 10px;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+#news p {
+    margin: 0;
+    padding: 5px 15px;
+}
+
+#news form {
+    padding: 10px;
+}
+
+#news form input {
+    display: inline-block;
+    width: 70%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px dashed;
+}
+
+#news form button {
+    padding: 5px;
+    width: 20%;
+    background-color: #4c67bd;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
